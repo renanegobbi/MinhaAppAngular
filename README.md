@@ -2,9 +2,11 @@
 Uma simples aplicação Web desenvolvida com **Node 14.15.0** e **Angular CLI 13.3.0** para visualizar as funcionalidades de fornecedores e produtos desenvolvidas pela API MinhaApi (https://github.com/renanegobbi/MinhaApi).
 
 <h4 align="center"> 
-  <a href="#Tecnologias-e-Ferramentas">Tecnologias e ferramentas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; 
+  <a href="#Tecnologias-e-ferramentas">Tecnologias e ferramentas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; 
   <a href="#Sobre-o-projeto">Sobre o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#Demonstração">Demonstração</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  </br>
+  <a href="#Como-usar">Como usar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#Licença">Licença</a>
 </h4>
 
