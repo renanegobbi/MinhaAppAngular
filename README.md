@@ -97,5 +97,11 @@ Rodar o container:
 docker run --name meusprodutos -d -p 8080:80 meusprodutos
 ```
 
+Acessar via browser:
+
+```bash
+http://localhost:8080/fornecedores/listar
+```
+
 # Licença
 Este projeto está sob a licença do MIT. Consulte a [LICENÇA](https://github.com/TesteReteste/lim/blob/master/LICENSE) para obter mais informações.
