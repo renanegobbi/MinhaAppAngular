@@ -20,8 +20,9 @@ Uma simples aplicação Web desenvolvida em **Node 14.15.0** e **Angular CLI 13.
 
 O projeto foi desenvolvido com as seguintes tecnologias e ferramentas:
 
-- [Visual Studio 2022 Community](https://visualstudio.microsoft.com/pt-br/vs/community/)
-- [ASP.NET Core 5.0](https://dotnet.microsoft.com/en-us/download/dotnet/5.0)
+- [Visual Studio Code](https://code.visualstudio.com)
+- [Node 14.15.0](https://nodejs.org/ja/blog/release/v14.15.0/)
+- [Angular CLI 13.3.0](https://www.npmjs.com/package/@angular/cli/v/13.3.0)
 
 <div id='Sobre-o-projeto'/>
 
