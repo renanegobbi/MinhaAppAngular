@@ -36,7 +36,7 @@ Este é um projeto Web desenvolvido com **Node 14.15.0** e **Angular CLI 13.3.0*
 
 A aplicação é composta de duas telas.   
 
-1 - A tela abaixo resume o modelo do fornecedor:
+1 - O quadro abaixo resume os dados listados pela tela de fornecedores:
 
 Nome do parâmetro   | Resumo
 --------- | ------
@@ -50,7 +50,7 @@ Status | Status de ativação do fornecedor
   <img src="https://github.com/renanegobbi/_TesteReadme/blob/main/github/PrintTelaFornecedores.PNG">
 </p>
 
-2 - A tela abaixo resume o modelo do produto:
+2 - O quadro abaixo resume os dados listados pela tela de produtos:
 
 Nome do parâmetro   | Resumo
 --------- | ------
