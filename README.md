@@ -65,5 +65,10 @@ Status | Status de ativação do produto
   <img src="https://github.com/renanegobbi/_TesteReadme/blob/main/github/PrintTelaProdutos.PNG">
 </p>
 
+# Como usar
+
+Após clonar esta solução, executar o seguinte comando no projeto MinhaApi.Data para criar o banco de dados.                                   
+<br><b>update-database</b>
+
 # Licença
 Este projeto está sob a licença do MIT. Consulte a [LICENÇA](https://github.com/TesteReteste/lim/blob/master/LICENSE) para obter mais informações.
