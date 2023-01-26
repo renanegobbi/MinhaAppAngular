@@ -28,10 +28,40 @@ O projeto foi desenvolvido com as seguintes tecnologias e ferramentas:
 
 # Sobre o projeto
 
-Este é um projeto Web desenvolvido com **Node 14.15.0** e **Angular CLI 13.3.0** para consultar/criar/atualizar/excluir os dados disponibilizados por uma documentação de API, por Swagger, que realiza a gestão de fornecedores e produtos.
+Este é um projeto Web desenvolvido com **Node 14.15.0** e **Angular CLI 13.3.0** para detalhar/criar/atualizar/excluir os dados disponibilizados por uma documentação de API, por Swagger, que realiza a gestão de fornecedores e produtos.
 
 # Demonstração
 
 A aplicação é composta de duas telas.   
 
-1 - A tela abaixo, além de cadastrar/alterar/excluir um fornecedor, permite filtrar os fornecedores baseados nos seguintes parâmetros de procura: 
+1 - A tela abaixo resume o modelo do fornecedor:
+
+Nome do parâmetro   | Resumo
+--------- | ------
+Id | Id do fornecedor
+Nome | Nome do fornecedor
+Descrição | Descrição do fornecedor
+Cnpj | CNPJ do fornecedor
+Status | Status de ativação do fornecedor
+
+<p align="center">
+  <img src="https://github.com/renanegobbi/_TesteReadme/blob/main/github/PrintTelaFornecedores.PNG">
+</p>
+
+2 - A tela abaixo resume o modelo do produto:
+
+Nome do parâmetro   | Resumo
+--------- | ------
+Id | Id do produto
+Fornecedor | Id do fornecedor
+Descrição | Descrição do produto
+Fabricação | Data de fabricação do produto
+Validade | Data de validade do produto
+Status | Status de ativação do produto
+
+<p align="center">
+  <img src="https://github.com/renanegobbi/_TesteReadme/blob/main/github/PrintTelaProdutos.PNG">
+</p>
+
+# Licença
+Este projeto está sob a licença do MIT. Consulte a [LICENÇA](https://github.com/TesteReteste/lim/blob/master/LICENSE) para obter mais informações.
