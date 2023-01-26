@@ -68,7 +68,7 @@ Status | Status de ativação do produto
 # Como usar
 
 ### Back-end
-Após clonar esta solução, executar o seguinte comando no projeto MinhaApi.Data para criar o banco de dados.    
+Após clonar a API (https://github.com/renanegobbi/MinhaApi), executar o seguinte comando no projeto MinhaApi.Data para criar o banco de dados.    
 
 ```bash
 update-database
@@ -77,19 +77,25 @@ update-database
 ### Front-end
 Após clonar este repositório, executar os seguintes passos:
 
-2. Construir o projeto front-end
 ```bash
-cd frontend
+cd MinhaAppAngular
 npm install
-ng build --prod
 ```
-### Rodar no Docker
 
-You can build the image and run the container with Docker.
+### Deploy no Docker
+Você pode construir a imagem e rodar o container com Docker.
 
-3. Build images and run containers
+Criar a imagem, executando o seguinte comando na raiz do Dockerfile:
+
 ```bash
-docker-compose up --build
+docker build -t meusprodutos .
+```
+
+Rodar o container:
+
+```bash
+docker run --name meusprodutos -d -p 8080:80 meusprodutos
+```
 
 # Licença
 Este projeto está sob a licença do MIT. Consulte a [LICENÇA](https://github.com/TesteReteste/lim/blob/master/LICENSE) para obter mais informações.
