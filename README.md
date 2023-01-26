@@ -67,22 +67,26 @@ Status | Status de ativação do produto
 
 # Como usar
 
-Após clonar esta solução, executar o seguinte comando no projeto MinhaApi.Data para criar o banco de dados.                                   
-<br><b>update-database</b>
+### Back-end
+Após clonar esta solução, executar o seguinte comando no projeto MinhaApi.Data para criar o banco de dados.    
 
-#### Rodar no Docker
-You can build the image and run the container with Docker. 
-1. Construir o projeto back-end
 ```bash
-cd backend
-mvn package
+update-database
 ```
+
+### Front-end
+Após clonar este repositório, executar os seguintes passos:
+
 2. Construir o projeto front-end
 ```bash
 cd frontend
 npm install
 ng build --prod
 ```
+### Rodar no Docker
+
+You can build the image and run the container with Docker.
+
 3. Build images and run containers
 ```bash
 docker-compose up --build
