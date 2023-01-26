@@ -105,5 +105,4 @@ http://localhost:8080/fornecedores/listar
 
 # Licença
 Este projeto está sob a licença do MIT. Consulte a [LICENÇA](https://github.com/TesteReteste/lim/blob/master/LICENSE) para obter mais informações.
-![image](https://user-images.githubusercontent.com/64235143/214975853-7f44b28e-2fa9-4e3a-af7e-b4fdaf479285.png)
 
