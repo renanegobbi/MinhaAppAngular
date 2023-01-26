@@ -1,0 +1,51 @@
+<div class="container main-container">
+    <h1 class="mt-2">Detalhes do produto</h1>
+
+    <div>
+        <h4>Informação somente leitura</h4>
+        <hr />
+        <dl class="row">
+            <dt class="col-sm-2">
+            <label class="control-label">Id do fornecedor</label>
+        </dt>
+            <dd class="col-sm-10">
+                {{ produto.fornecedorId }}
+            </dd>
+        <dt class="col-sm-2">
+            <label class="control-label">Id do produto</label>
+        </dt>
+            <dd class="col-sm-10">
+                {{ produto.id }}
+            </dd>
+            <dt class="col-sm-2">
+                <label class="control-label">Descrição</label>
+        </dt>
+            <dd class="col-sm-10">
+                {{ produto.descricao }}
+            </dd>
+            <dt class="col-sm-2">
+                <label class="control-label">Data de fabricação</label>
+        </dt>
+            <dd class="col-sm-10">
+                {{ produto.dataFabricacao }}
+            </dd>
+            <dt class="col-sm-2">
+                <label class="control-label">Data de validade</label>
+        </dt>
+            <dd class="col-sm-10">
+                {{ produto.dataValidade }}
+            </dd>
+            <dt class="col-sm-2">
+                <label class="control-label">Ativo</label>
+        </dt>
+            <dd class="col-sm-10">
+                <input [checked]="produto.ativo" class="check-box" disabled="disabled" type="checkbox">
+            </dd>
+        </dl>
+    </div>
+
+    <div>
+        <a class="btn btn-dark" [routerLink]="['/produtos/editar',produto.id]">Editar</a>&nbsp;
+        <a class="btn btn-info" [routerLink]="['/produtos/listar']">Voltar</a>
+    </div>
+</div>
