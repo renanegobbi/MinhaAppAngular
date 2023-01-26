@@ -17,3 +17,20 @@ Uma simples aplicação Web desenvolvida em **Node 14.15.0** e **Angular CLI 13.
 </p>
 
 <div id='Tecnologias-e-Ferramentas'/>
+
+O projeto foi desenvolvido com as seguintes tecnologias e ferramentas:
+
+- [Visual Studio 2022 Community](https://visualstudio.microsoft.com/pt-br/vs/community/)
+- [ASP.NET Core 5.0](https://dotnet.microsoft.com/en-us/download/dotnet/5.0)
+
+<div id='Sobre-o-projeto'/>
+
+# Sobre o projeto
+
+Este é um projeto Web desenvolvido com ASP.NET Core 5.0 para consultar/criar/atualizar/excluir os dados disponibilizados por uma documentação de API, por Swagger, que realiza a gestão de fornecedores e produtos..
+
+# Demonstração
+
+A aplicação é composta de duas telas.   
+
+1 - A tela abaixo, além de cadastrar/alterar/excluir um fornecedor, permite filtrar os fornecedores baseados nos seguintes parâmetros de procura: 
