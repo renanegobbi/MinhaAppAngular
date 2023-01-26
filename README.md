@@ -70,5 +70,22 @@ Status | Status de ativação do produto
 Após clonar esta solução, executar o seguinte comando no projeto MinhaApi.Data para criar o banco de dados.                                   
 <br><b>update-database</b>
 
+#### Rodar no Docker
+You can build the image and run the container with Docker. 
+1. Construir o projeto back-end
+```bash
+cd backend
+mvn package
+```
+2. Construir o projeto front-end
+```bash
+cd frontend
+npm install
+ng build --prod
+```
+3. Build images and run containers
+```bash
+docker-compose up --build
+
 # Licença
 Este projeto está sob a licença do MIT. Consulte a [LICENÇA](https://github.com/TesteReteste/lim/blob/master/LICENSE) para obter mais informações.
