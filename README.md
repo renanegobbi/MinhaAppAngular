@@ -68,7 +68,7 @@ Status | Status de ativação do produto
 # Como usar
 
 ### Back-end
-Após clonar o repositória da API (https://github.com/renanegobbi/MinhaApi), executar o seguinte comando no projeto MinhaApi.Data para criar o banco de dados.    
+Após clonar o repositório da API (https://github.com/renanegobbi/MinhaApi), executar o seguinte comando no projeto MinhaApi.Data para criar o banco de dados.    
 
 ```bash
 update-database
