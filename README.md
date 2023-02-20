@@ -20,6 +20,8 @@ Uma simples aplicação Web desenvolvida com **Node 14.15.0** e **Angular CLI 13
 
 <div id='Tecnologias-e-Ferramentas'/>
 
+# Tecnologias e ferramentas
+
 O projeto foi desenvolvido com as seguintes tecnologias e ferramentas:
 
 - [Visual Studio Code](https://code.visualstudio.com)
